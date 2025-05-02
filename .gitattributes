@@ -4,3 +4,4 @@ checkinsFull.txt filter=lfs diff=lfs merge=lfs -text
 Yelp/yelp_dataset_challenge_round9 filter=lfs diff=lfs merge=lfs -text
 Yelp/yelp_academic_dataset_business.json filter=lfs diff=lfs merge=lfs -text
 Yelp/yelp_academic_dataset_review.json filter=lfs diff=lfs merge=lfs -text
+Yelp/review.json filter=lfs diff=lfs merge=lfs -text
