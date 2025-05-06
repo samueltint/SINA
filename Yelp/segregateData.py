@@ -15,6 +15,8 @@ with open('review.json', 'r', encoding='utf-8') as f:
         except json.JSONDecodeError as e:
             print(f"Skipping line {i} due to error: {e}")
 
+random.shuffle(data)
+
 # Split percentages
 train_ratio = 0.8
 val_ratio = 0.1
